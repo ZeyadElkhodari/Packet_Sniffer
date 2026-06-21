@@ -35,14 +35,9 @@ sudo python packet_sniffer.py
 
 By default, the sniffer captures only local machine traffic. In a controlled lab environment, additional network traffic can be analyzed by routing it through a test setup.
 
-### Step-by-Step Run:
+### Lab Demonstration
 
-1. Run the traffic redirection tool in a separate terminal within the lab environment, targeting the desired devices.
-2. Run the Packet Sniffer in another terminal to capture and analyze the forwarded traffic.
-
-```bash
-sudo python arp_spoofer.py -t <target_ip> -r <gateway_ip>
-```
+The screenshot below shows a separate lab setup used to redirect traffic for testing purposes. The traffic redirection tool is not included in this repository.
 ![Options Menu](screenshots/arp.png)
 
 ## Disclaimer
